@@ -1,0 +1,292 @@
+2025-06-03T11:18:54.182 | INFO  | main_thread     | GlobalModule::onPreInit | log path: C:/Users/asus/AppData/Local/MuseScore/MuseScore4/logs/MuseScore_250603_111854.log
+2025-06-03T11:18:54.182 | INFO  | main_thread     | GlobalModule::onPreInit | === Started MuseScore 4.3.1, build number 241490900 ===
+2025-06-03T11:18:54.231 | INFO  | main_thread     | LanguagesService::effectiveLanguageCode | System language code: "en-US" 
+2025-06-03T11:18:54.240 | WARN  | main_thread     | IpcSocket::connect | failed connect to server
+2025-06-03T11:18:54.240 | WARN  | main_thread     | IpcSocket::connect | failed connect to server
+2025-06-03T11:18:54.242 | INFO  | main_thread     | IpcSocket::connect | success connected to ipc server
+2025-06-03T11:18:54.243 | INFO  | 3796            | <lambda_f5da7718a123e8d2b82e0508660fd079>::operator  | id: "5b8867063caf4c098e79302a2dd9a189" 
+2025-06-03T11:18:55.215 | INFO  | main_thread     | DiagnosticsModule::onInit | success start crash handler
+2025-06-03T11:18:55.427 | INFO  | main_thread     | WasapiAudioDriver::open | WASAPI: trying to open the audio end-point with the following sample rate - 44100
+2025-06-03T11:18:55.427 | INFO  | main_thread     | WasapiAudioDriver::open | WASAPI: trying to open the audio end-point with the following samples per channel number - 1024
+2025-06-03T11:18:55.436 | INFO  | 23996           | WasapiAudioClient::configureDeviceInternal | WASAPI: Settings device client properties
+2025-06-03T11:18:55.437 | INFO  | 23996           | WasapiAudioClient::configureDeviceInternal | WASAPI: Getting device mix format
+2025-06-03T11:18:55.440 | INFO  | 23996           | WasapiAudioClient::configureDeviceInternal | WASAPI: Mix format after getting from audio client:
+2025-06-03T11:18:55.440 | INFO  | 23996           | logWAVEFORMATEX | Format tag: 65534
+2025-06-03T11:18:55.440 | INFO  | 23996           | logWAVEFORMATEX | Channels: 2
+2025-06-03T11:18:55.440 | INFO  | 23996           | logWAVEFORMATEX | Sample rate: 48000
+2025-06-03T11:18:55.440 | INFO  | 23996           | logWAVEFORMATEX | Average bytes per second: 384000
+2025-06-03T11:18:55.440 | INFO  | 23996           | logWAVEFORMATEX | Block align: 8
+2025-06-03T11:18:55.440 | INFO  | 23996           | logWAVEFORMATEX | Bits per sample: 32
+2025-06-03T11:18:55.441 | INFO  | 23996           | logWAVEFORMATEX | cbSize: 22
+2025-06-03T11:18:55.441 | INFO  | 23996           | WasapiAudioClient::configureDeviceInternal | WASAPI: Modified mix format:
+2025-06-03T11:18:55.441 | INFO  | 23996           | logWAVEFORMATEX | Format tag: 3
+2025-06-03T11:18:55.441 | INFO  | 23996           | logWAVEFORMATEX | Channels: 2
+2025-06-03T11:18:55.441 | INFO  | 23996           | logWAVEFORMATEX | Sample rate: 48000
+2025-06-03T11:18:55.441 | INFO  | 23996           | logWAVEFORMATEX | Average bytes per second: 384000
+2025-06-03T11:18:55.441 | INFO  | 23996           | logWAVEFORMATEX | Block align: 8
+2025-06-03T11:18:55.441 | INFO  | 23996           | logWAVEFORMATEX | Bits per sample: 32
+2025-06-03T11:18:55.441 | INFO  | 23996           | logWAVEFORMATEX | cbSize: 0
+2025-06-03T11:18:55.441 | INFO  | 23996           | WasapiAudioClient::configureDeviceInternal | WASAPI: Getting shared mode engine period
+2025-06-03T11:18:55.611 | INFO  | 23996           | WasapiAudioClient::configureDeviceInternal | WASAPI: Device successfully configured
+2025-06-03T11:18:56.261 | INFO  | 23996           | WasapiAudioClient::ActivateCompleted | Initialized WASAPI audio endpoint with: 
+2025-06-03T11:18:56.261 | INFO  | 23996           | logWAVEFORMATEX | Format tag: 3
+2025-06-03T11:18:56.261 | INFO  | 23996           | logWAVEFORMATEX | Channels: 2
+2025-06-03T11:18:56.261 | INFO  | 23996           | logWAVEFORMATEX | Sample rate: 48000
+2025-06-03T11:18:56.262 | INFO  | 23996           | logWAVEFORMATEX | Average bytes per second: 384000
+2025-06-03T11:18:56.262 | INFO  | 23996           | logWAVEFORMATEX | Block align: 8
+2025-06-03T11:18:56.262 | INFO  | 23996           | logWAVEFORMATEX | Bits per sample: 32
+2025-06-03T11:18:56.262 | INFO  | 23996           | logWAVEFORMATEX | cbSize: 0
+2025-06-03T11:18:56.262 | INFO  | 23996           | WasapiAudioClient::ActivateCompleted | HnsBufferDuration: 232200
+2025-06-03T11:18:56.271 | INFO  | 23996           | WasapiAudioClient::ActivateCompleted | Minimal period in frames: 512
+2025-06-03T11:18:56.271 | INFO  | 23996           | WasapiAudioClient::ActivateCompleted | Default period in frames: 512
+2025-06-03T11:18:56.271 | INFO  | 23996           | WasapiAudioClient::ActivateCompleted | Fundamental period in frames: 512
+2025-06-03T11:18:56.271 | INFO  | 23996           | WasapiAudioClient::ActivateCompleted | Max period in frames: 512
+2025-06-03T11:18:56.271 | INFO  | 23996           | WasapiAudioClient::ActivateCompleted | Min period in frames: 512
+2025-06-03T11:18:56.271 | ERROR | 23996           | WasapiAudioClient::setStateAndNotify | 
+2025-06-03T11:18:56.272 | ERROR | 23996           | WasapiAudioClient::setStateAndNotify | 
+2025-06-03T11:18:56.276 | ERROR | 21748           | WasapiAudioClient::setStateAndNotify | 
+2025-06-03T11:18:56.278 | ERROR | main_thread     | MuseSamplerLibHandler::MuseSamplerLibHandler | Unable to open MuseSampler library, path: C:/Users/asus/AppData/Local\MuseSampler\lib\MuseSamplerCoreLib.dll
+2025-06-03T11:18:56.278 | ERROR | main_thread     | MuseSamplerResolver::doInit | Incompatible MuseSampler library; ignoring
+2025-06-03T11:18:56.280 | ERROR | main_thread     | MuseSamplerLibHandler::MuseSamplerLibHandler | Unable to open MuseSampler library, path: MuseSamplerCoreLib.dll
+2025-06-03T11:18:56.281 | ERROR | main_thread     | MuseSamplerResolver::doInit | Incompatible MuseSampler library; ignoring
+2025-06-03T11:18:56.287 | WARN  | main_thread     | Qt              | QIODevice::read (QFile, "C:\Users\asus\AppData\Local\MuseScore\MuseScore4\shortcuts.xml"): device not open
+2025-06-03T11:18:56.288 | WARN  | main_thread     | Qt              | QIODevice::read (QFile, "C:\Users\asus\AppData\Local\MuseScore\MuseScore4\midi_mappings.xml"): device not open
+2025-06-03T11:18:56.321 | WARN  | main_thread     | AbstractCloudService::readTokens | Could not find the tokens file: C:/Users/asus/AppData/Local/MuseScore/MuseScore4/musescorecom_cred.dat
+2025-06-03T11:18:56.321 | WARN  | main_thread     | AbstractCloudService::readTokens | Could not find the tokens file: C:/Users/asus/AppData/Local/MuseScore/MuseScore4/audiocom_cred.dat
+2025-06-03T11:18:56.844 | ERROR | main_thread     | PluginsConfiguration::updatePluginsConfiguration | [401] The file does not exist
+2025-06-03T11:18:56.850 | ERROR | main_thread     | WorkspaceManager::findWorkspaceFiles | [401] The file does not exist
+2025-06-03T11:18:56.850 | WARN  | main_thread     | WorkspaceManager::setupDefaultWorkspace | not found default workspace, will be created new
+2025-06-03T11:18:58.428 | ERROR | main_thread     | InteractiveProvider::topWindow | stack is empty
+2025-06-03T11:18:58.720 | WARN  | main_thread     | Qt              | void __cdecl Layouting::ItemBoxContainer::setSize_recursive(class QSize,enum Layouting::ChildrenResizeStrategy) New size doesn't respect size constraints ; new= QSize(0, -32) ; min= QSize(0, 0) Layouting::ItemBoxContainer(0x11aebd20)
+2025-06-03T11:18:58.720 | WARN  | main_thread     | Qt              | void __cdecl Layouting::ItemBoxContainer::setSize_recursive(class QSize,enum Layouting::ChildrenResizeStrategy) New size doesn't respect size constraints ; new= QSize(0, -32) ; min= QSize(0, 0) Layouting::ItemBoxContainer(0x11aebd20)
+2025-06-03T11:18:58.725 | WARN  | main_thread     | Qt              | void __cdecl Layouting::ItemBoxContainer::setSize_recursive(class QSize,enum Layouting::ChildrenResizeStrategy) New size doesn't respect size constraints ; new= QSize(1150, -32) ; min= QSize(0, 0) Layouting::ItemBoxContainer(0x11aebd20)
+2025-06-03T11:18:58.735 | ERROR | main_thread     | <lambda_50de235aca691b1a6fc9211a568e635a>::operator  | error: qrc:/qml/MuseScore/UiComponents/FlatButton.qml:179:5: QML Loader: Binding loop detected for property "itemImplicitWidth"
+
+2025-06-03T11:18:58.735 | WARN  | main_thread     | Qt              | qrc:/qml/MuseScore/UiComponents/FlatButton.qml:179:5: QML Loader: Binding loop detected for property "itemImplicitWidth"
+2025-06-03T11:18:58.737 | ERROR | main_thread     | <lambda_50de235aca691b1a6fc9211a568e635a>::operator  | error: qrc:/qml/MuseScore/UiComponents/FlatButton.qml:179:5: QML Loader: Binding loop detected for property "itemImplicitWidth"
+
+2025-06-03T11:18:58.737 | WARN  | main_thread     | Qt              | qrc:/qml/MuseScore/UiComponents/FlatButton.qml:179:5: QML Loader: Binding loop detected for property "itemImplicitWidth"
+2025-06-03T11:18:58.738 | ERROR | main_thread     | <lambda_50de235aca691b1a6fc9211a568e635a>::operator  | error: qrc:/qml/MuseScore/UiComponents/FlatButton.qml:179:5: QML Loader: Binding loop detected for property "itemImplicitWidth"
+
+2025-06-03T11:18:58.738 | WARN  | main_thread     | Qt              | qrc:/qml/MuseScore/UiComponents/FlatButton.qml:179:5: QML Loader: Binding loop detected for property "itemImplicitWidth"
+2025-06-03T11:18:58.739 | ERROR | main_thread     | <lambda_50de235aca691b1a6fc9211a568e635a>::operator  | error: qrc:/qml/MuseScore/UiComponents/FlatButton.qml:179:5: QML Loader: Binding loop detected for property "itemImplicitWidth"
+
+2025-06-03T11:18:58.739 | WARN  | main_thread     | Qt              | qrc:/qml/MuseScore/UiComponents/FlatButton.qml:179:5: QML Loader: Binding loop detected for property "itemImplicitWidth"
+2025-06-03T11:18:58.741 | ERROR | main_thread     | <lambda_50de235aca691b1a6fc9211a568e635a>::operator  | error: qrc:/qml/MuseScore/UiComponents/FlatButton.qml:179:5: QML Loader: Binding loop detected for property "itemImplicitWidth"
+
+2025-06-03T11:18:58.741 | WARN  | main_thread     | Qt              | qrc:/qml/MuseScore/UiComponents/FlatButton.qml:179:5: QML Loader: Binding loop detected for property "itemImplicitWidth"
+2025-06-03T11:18:58.742 | ERROR | main_thread     | <lambda_50de235aca691b1a6fc9211a568e635a>::operator  | error: qrc:/qml/MuseScore/UiComponents/FlatButton.qml:179:5: QML Loader: Binding loop detected for property "itemImplicitWidth"
+
+2025-06-03T11:18:58.742 | WARN  | main_thread     | Qt              | qrc:/qml/MuseScore/UiComponents/FlatButton.qml:179:5: QML Loader: Binding loop detected for property "itemImplicitWidth"
+2025-06-03T11:18:58.743 | ERROR | main_thread     | <lambda_50de235aca691b1a6fc9211a568e635a>::operator  | error: qrc:/qml/MuseScore/UiComponents/FlatButton.qml:179:5: QML Loader: Binding loop detected for property "itemImplicitWidth"
+
+2025-06-03T11:18:58.743 | WARN  | main_thread     | Qt              | qrc:/qml/MuseScore/UiComponents/FlatButton.qml:179:5: QML Loader: Binding loop detected for property "itemImplicitWidth"
+2025-06-03T11:18:58.744 | ERROR | main_thread     | <lambda_50de235aca691b1a6fc9211a568e635a>::operator  | error: qrc:/qml/MuseScore/UiComponents/FlatButton.qml:179:5: QML Loader: Binding loop detected for property "itemImplicitWidth"
+
+2025-06-03T11:18:58.744 | WARN  | main_thread     | Qt              | qrc:/qml/MuseScore/UiComponents/FlatButton.qml:179:5: QML Loader: Binding loop detected for property "itemImplicitWidth"
+2025-06-03T11:18:58.746 | ERROR | main_thread     | <lambda_50de235aca691b1a6fc9211a568e635a>::operator  | error: qrc:/qml/MuseScore/UiComponents/FlatButton.qml:179:5: QML Loader: Binding loop detected for property "itemImplicitWidth"
+
+2025-06-03T11:18:58.746 | WARN  | main_thread     | Qt              | qrc:/qml/MuseScore/UiComponents/FlatButton.qml:179:5: QML Loader: Binding loop detected for property "itemImplicitWidth"
+2025-06-03T11:19:00.130 | ERROR | main_thread     | AppShellConfiguration::sessionProjectsPaths | [401] The file does not exist
+2025-06-03T11:19:20.105 | WARN  | main_thread     | Qt              | QQmlComponent: Created graphical object was not placed in the graphics scene.
+2025-06-03T11:19:21.031 | ERROR | main_thread     | NavigationController::requestActivateByName | not found panel with name: , section: DialogView
+2025-06-03T11:19:21.034 | INFO  | main_thread     | ActionsDispatcher::dispatch | try call action: file-open
+2025-06-03T11:19:21.034 | INFO  | main_thread     | ProjectActionsController::openProject | Try open project: url = "" , displayNameOverride = "" 
+2025-06-03T11:19:54.736 | ERROR | main_thread     | AppShellConfiguration::sessionProjectsPaths | [401] The file does not exist
+2025-06-03T11:19:54.787 | ERROR | 23400           | SynthResolver::resolveSynth | invalid audio source params for trackId: 0
+2025-06-03T11:19:54.795 | ERROR | 23400           | <lambda_9ea47483211dd59abf6c2f56713e949f>::operator  | INFO chunk size mismatch
+2025-06-03T11:19:54.847 | INFO  | 23400           | FluidSynth::addSoundFonts | success load soundfont: C:/Users/asus/Documents/GitHub/AI-autosheet/MuseScorePortable/App/MuseScore/sound/MS Basic.sf3
+2025-06-03T11:19:54.902 | INFO  | 23400           | FluidSynth::addSoundFonts | success load soundfont: C:/Users/asus/Documents/GitHub/AI-autosheet/MuseScorePortable/App/MuseScore/sound/MS Basic.sf3
+2025-06-03T11:19:59.630 | ERROR | 23400           | SynthResolver::resolveSynth | invalid audio source params for trackId: 1
+2025-06-03T11:19:59.683 | INFO  | 23400           | FluidSynth::addSoundFonts | success load soundfont: C:/Users/asus/Documents/GitHub/AI-autosheet/MuseScorePortable/App/MuseScore/sound/MS Basic.sf3
+2025-06-03T11:19:59.741 | INFO  | 23400           | FluidSynth::addSoundFonts | success load soundfont: C:/Users/asus/Documents/GitHub/AI-autosheet/MuseScorePortable/App/MuseScore/sound/MS Basic.sf3
+2025-06-03T11:20:01.730 | WARN  | main_thread     | Qt              | QQmlComponent: Created graphical object was not placed in the graphics scene.
+2025-06-03T11:20:03.890 | INFO  | main_thread     | ActionsDispatcher::dispatch | try call action: file-open
+2025-06-03T11:20:03.890 | INFO  | main_thread     | ProjectActionsController::openProject | Try open project: url = "" , displayNameOverride = "" 
+2025-06-03T11:20:10.332 | INFO  | main_thread     | MultiInstancesProvider::openNewAppInstance | success start: "C:/Users/asus/Documents/GitHub/AI-autosheet/MuseScorePortable/App/MuseScore/bin/MuseScore4.exe" , args: QVariant(QStringList, ("C:/Users/asus/Documents/GitHub/AI-autosheet/output/Für_Elise_-_Very_Easy_Piano_tutorial_-_Beginner/Für_Elise_-_Very_Easy_Piano_tutorial_-_Beginner.mid")) 
+2025-06-03T11:20:10.469 | INFO  | 3796            | <lambda_f5da7718a123e8d2b82e0508660fd079>::operator  | id: "666bd07c8d644c50b18f63f8cacdd65a" 
+2025-06-03T11:20:10.545 | INFO  | main_thread     | <lambda_808a34d9e2e8f727fa45730425265466>::operator  | created new instance with ID: "666bd07c8d644c50b18f63f8cacdd65a" 
+2025-06-03T11:20:15.018 | INFO  | main_thread     | MultiInstancesProvider::onMsg | "PROJECT_IS_OPENED" 
+2025-06-03T11:20:15.593 | INFO  | main_thread     | MultiInstancesProvider::onMsg | "RESOURCE_CHANGED" 
+2025-06-03T11:20:15.623 | INFO  | main_thread     | MultiInstancesProvider::onMsg | "RESOURCE_CHANGED" 
+2025-06-03T11:22:05.749 | WARN  | main_thread     | Qt              | Retrying to obtain clipboard.
+2025-06-03T11:23:56.883 | INFO  | main_thread     | NotationProject::doSave | success save file: "C:/Users/asus/AppData/Local/MuseScore/MuseScore4/new_project.mscz" 
+2025-06-03T11:24:35.705 | WARN  | main_thread     | Qt              | Retrying to obtain clipboard.
+2025-06-03T11:28:09.248 | WARN  | main_thread     | Qt              | Retrying to obtain clipboard.
+2025-06-03T11:32:53.485 | INFO  | main_thread     | MultiInstancesProvider::onMsg | "METHOD_QUITED" 
+2025-06-03T11:32:53.704 | INFO  | main_thread     | MultiInstancesProvider::onMsg | "RESOURCE_CHANGED" 
+2025-06-03T11:32:56.399 | INFO  | main_thread     | Profiler        | 
+
+Main thread. Top 150 by sum time (total count: 168)
+Function                                                    Call time         Call count        Sum time          
+StartupScenario::onStartupPageOpened                        14581.392 ms      1                 14581.392 ms      
+PluginsService::init                                        1331.142 ms       1                 1331.142 ms       
+PluginsService::readPlugins                                 1323.506 ms       1                 1323.506 ms       
+DockWindow::loadPage                                        113.084 ms        6                 678.505 ms        
+DockWindow::loadPageContent                                 83.941 ms         5                 419.707 ms        
+DockWindow::addDock                                         5.135 ms          75                385.153 ms        
+DockWindow::loadPanels                                      45.933 ms         5                 229.665 ms        
+SoundFontRepository::loadSoundFonts                         180.044 ms        1                 180.044 ms        
+DockWindow::loadToolBars                                    23.083 ms         5                 115.416 ms        
+ProjectActionsController::doOpenProject                     106.865 ms        1                 106.865 ms        
+StartupScenario::run                                        92.947 ms         1                 92.947 ms         
+UiConfiguration::writeThemes                                45.559 ms         2                 91.117 ms         
+DockWindow::restorePageState                                16.005 ms         5                 80.026 ms         
+DockWindow::restoreLayout                                   26.474 ms         3                 79.423 ms         
+UiActionsRegister::updateEnabledAll                         2.098 ms          35                73.431 ms         
+AbstractMenuModel::setItems                                 2.809 ms          26                73.040 ms         
+InstrumentsRepository::load                                 65.236 ms         1                 65.236 ms         
+dock::clearRegistry                                         9.433 ms          6                 56.599 ms         
+ProjectActionsController::loadProject                       50.941 ms         1                 50.941 ms         
+NotationProject::load                                       50.721 ms         1                 50.721 ms         
+NotationProject::doImport                                   50.316 ms         1                 50.316 ms         
+ProjectAutoSaver::onTrySave                                 22.357 ms         2                 44.713 ms         
+NotationProject::save                                       44.529 ms         1                 44.529 ms         
+NotationProject::doSave                                     44.499 ms         1                 44.499 ms         
+DockWindow::loadTopLevelToolBars                            8.163 ms          5                 40.813 ms         
+AbstractNotationPaintView::paint                            1.776 ms          22                39.071 ms         
+NotationProject::writeProject                               31.124 ms         1                 31.124 ms         
+NotationPainting::doPaint                                   1.895 ms          16                30.320 ms         
+Paint::paintScore                                           1.883 ms          16                30.126 ms         
+Paint::paintItems                                           1.423 ms          16                22.770 ms         
+NavigationController::onActiveRequested                     0.772 ms          29                22.385 ms         
+Paint::paintItem                                            0.017 ms          1328              22.316 ms         
+DockBase::componentComplete                                 0.360 ms          57                20.508 ms         
+AppMenuModel::load                                          19.480 ms         1                 19.480 ms         
+EngravingProject::writeMscz                                 17.228 ms         1                 17.228 ms         
+MscSaver::writeMscz                                         17.214 ms         1                 17.214 ms         
+EngravingProject::doSetupMasterScore                        15.056 ms         1                 15.056 ms         
+Score::update                                               14.225 ms         1                 14.225 ms         
+Score::doLayoutRange                                        13.843 ms         1                 13.843 ms         
+ScoreLayout::layoutRange                                    12.655 ms         1                 12.655 ms         
+MasterNotation::setMasterScore                              12.247 ms         1                 12.247 ms         
+ScorePageViewLayout::layoutPageView                         12.092 ms         1                 12.092 ms         
+DockWindow::savePageState                                   2.404 ms          5                 12.022 ms         
+MasterNotation::initAfterSettingScore                       11.665 ms         1                 11.665 ms         
+AbstractNotationPaintView::wheelEvent                       0.773 ms          15                11.589 ms         
+AbstractNotationPaintView::moveCanvas                       0.736 ms          15                11.041 ms         
+LanguagesService::init                                      10.702 ms         1                 10.702 ms         
+DockBase::applySizeConstraints                              0.073 ms          145               10.535 ms         
+PluginsService::scanFileSystemForPlugins                    10.363 ms         1                 10.363 ms         
+RecentFilesController::prependRecentFile                    9.602 ms          1                 9.602 ms          
+DockWindow::windowState                                     1.591 ms          6                 9.544 ms          
+PlaybackModel::load                                         9.438 ms          1                 9.438 ms          
+AbstractNotationPaintView::paintBackground                  0.360 ms          22                7.925 ms          
+PluginsService::registerShortcuts                           7.462 ms          1                 7.462 ms          
+RegisterAudioPluginsScenario::registerNewPlugins            7.166 ms          1                 7.166 ms          
+PlaybackModel::updateEvents                                 7.148 ms          1                 7.148 ms          
+VstPluginsScanner::scanPlugins                              6.879 ms          1                 6.879 ms          
+LanguagesService::setCurrentLanguage                        6.621 ms          1                 6.621 ms          
+ShortcutsRegister::reload                                   6.142 ms          1                 6.142 ms          
+NavigationControl::setPanel                                 0.007 ms          792               5.742 ms          
+SystemLayout::collectSystem                                 1.913 ms          3                 5.739 ms          
+NotationActionController::canReceiveAction                  0.002 ms          2573              5.510 ms          
+MeasureLayout::getNextMeasure                               0.532 ms          10                5.324 ms          
+NotationPainting::paintPageSheet                            0.323 ms          16                5.174 ms          
+NotationSwitchListModel::loadNotations                      1.150 ms          4                 4.598 ms          
+DockWindow::onQuit                                          4.445 ms          1                 4.445 ms          
+Writer::writeScore                                          4.146 ms          1                 4.146 ms          
+Writer::write                                               4.080 ms          1                 4.080 ms          
+ShortcutsRegister::readFromFile                             1.936 ms          2                 3.871 ms          
+AbstractNotationPaintView::forceFocusIn                     0.924 ms          4                 3.696 ms          
+RecentFilesController::recentFilesList                      0.877 ms          4                 3.507 ms          
+UiActionsRegister::updateEnabled                            0.540 ms          6                 3.240 ms          
+DockWindow::initDocks                                       0.646 ms          5                 3.229 ms          
+UiContextResolver::currentUiContext                         0.002 ms          1425              2.516 ms          
+DockPageView::init                                          0.494 ms          5                 2.468 ms          
+AbstractNotationPaintView::onCurrentNotationChanged         0.616 ms          4                 2.464 ms          
+InstrumentsPanelTreeModel::clear                            1.178 ms          2                 2.357 ms          
+AbstractCloudService::init                                  1.122 ms          2                 2.245 ms          
+DockWindow::componentComplete                               2.237 ms          1                 2.237 ms          
+NavigationController::activeSection                         0.001 ms          3029              2.152 ms          
+DockPanelMenuModel::load                                    0.135 ms          14                1.886 ms          
+LanguagesService::loadLanguages                             1.565 ms          1                 1.565 ms          
+AbstractNotationPaintView::setScaling                       1.489 ms          1                 1.489 ms          
+AbstractNotationPaintView::scale                            1.486 ms          1                 1.486 ms          
+InstrumentsRepository::loadStringTuningsPresets             1.411 ms          1                 1.411 ms          
+PageLayout::collectPage                                     1.392 ms          1                 1.392 ms          
+AbstractNotationPaintView::load                             0.630 ms          2                 1.259 ms          
+NavigationController::doDeactivatePanel                     0.032 ms          36                1.150 ms          
+UiActionsRegister::updateShortcutsAll                       0.569 ms          2                 1.139 ms          
+MasterNotation::initExcerptNotations                        1.034 ms          1                 1.034 ms          
+NavigationController::doDeactivateSection                   0.101 ms          10                1.007 ms          
+ChordLayout::layoutChords1                                  0.033 ms          29                0.957 ms          
+Score::setUpTempoMap                                        0.477 ms          2                 0.954 ms          
+RecentFilesController::saveRecentFilesList                  0.931 ms          1                 0.931 ms          
+AbstractNotationPaintView::notationContentRect              0.005 ms          176               0.893 ms          
+NavigationController::doDeactivateControl                   0.008 ms          117               0.888 ms          
+NotationActionController::init                              0.855 ms          1                 0.855 ms          
+MasterNotation::doSetExcerpts                               0.816 ms          1                 0.816 ms          
+NavigationController::activePanel                           0.001 ms          1435              0.814 ms          
+SymNames::loadNameToSymIdHash                               0.808 ms          1                 0.808 ms          
+NavigationPanel::addControl                                 0.001 ms          787               0.806 ms          
+UiActionsRegister::updateChecked                            0.074 ms          10                0.744 ms          
+NotationStatusBarModel::load                                0.368 ms          2                 0.736 ms          
+AbstractNotationPaintView::horizontalScrollbarSize          0.036 ms          20                0.716 ms          
+DockPageView::doReorderSections                             0.177 ms          4                 0.709 ms          
+DockWindow::saveGeometry                                    0.640 ms          1                 0.640 ms          
+RecentFilesController::init                                 0.635 ms          1                 0.635 ms          
+AbstractCloudService::readTokens                            0.226 ms          2                 0.452 ms          
+ShortcutsRegister::expandStandardKeys                       0.225 ms          2                 0.450 ms          
+NavigationPanel::setSection_property                        0.002 ms          256               0.438 ms          
+ShortcutsRegister::makeUnique                               0.430 ms          1                 0.430 ms          
+MasterNotation::updatePotentialExcerpts                     0.393 ms          1                 0.393 ms          
+AbstractNotationPaintView::verticalScrollbarSize            0.020 ms          20                0.390 ms          
+NotationProject::setupProject                               0.368 ms          1                 0.368 ms          
+PlaybackController::updateMuteStates                        0.072 ms          5                 0.359 ms          
+AbstractNotationPaintView::constraintCanvas                 0.022 ms          16                0.355 ms          
+InstrumentsPanelTreeModel::load                             0.345 ms          1                 0.345 ms          
+AbstractNotationPaintView::scrollableAreaRect               0.021 ms          16                0.338 ms          
+InstrumentsPanelContextMenuModel::loadItems                 0.322 ms          1                 0.322 ms          
+EngravingProject::checkCorrupted                            0.151 ms          2                 0.302 ms          
+UiConfiguration::readThemes                                 0.053 ms          5                 0.265 ms          
+NavigationController::activeControl                         0.006 ms          38                0.225 ms          
+UiActionsRegister::updateCheckedAll                         0.192 ms          1                 0.192 ms          
+DockWindow::registerDock                                    0.002 ms          79                0.192 ms          
+NoteInputBarModel::data                                     0.000 ms          395               0.181 ms          
+NotationPageModel::init                                     0.089 ms          2                 0.178 ms          
+RepeatList::unwind                                          0.177 ms          1                 0.177 ms          
+PluginsConfiguration::readPluginsConfiguration              0.162 ms          1                 0.162 ms          
+NavigationPanel::removeControl                              0.001 ms          106               0.117 ms          
+NavigationController::reg                                   0.003 ms          36                0.115 ms          
+RegisterAudioPluginsScenario::init                          0.114 ms          1                 0.114 ms          
+AbstractNotationPaintView::onViewSizeChanged                0.020 ms          5                 0.100 ms          
+KnownAudioPluginsRegister::load                             0.099 ms          1                 0.099 ms          
+NotationSwitchListModel::load                               0.049 ms          2                 0.097 ms          
+ProjectAutoSaver::update                                    0.032 ms          3                 0.097 ms          
+InstrumentsPanelTreeModel::loadMasterPart                   0.090 ms          1                 0.090 ms          
+NavigationSection::addPanel                                 0.001 ms          87                0.089 ms          
+DockPageView::deinit                                        0.022 ms          4                 0.086 ms          
+NavigationSection::removePanel                              0.002 ms          33                0.066 ms          
+AbstractNotationPaintView::onNotationSetup                  0.031 ms          2                 0.063 ms          
+Score::sanityCheckLocal                                     0.028 ms          2                 0.056 ms          
+InspectorListModel::setElementList                          0.007 ms          7                 0.049 ms          
+ShortcutsRegister::mergeShortcuts                           0.045 ms          1                 0.045 ms          
+AbstractNotationPaintView::startVerticalScrollPosition      0.001 ms          40                0.043 ms          
+NotationPageModel::updateDrumsetPanelVisibility             0.019 ms          2                 0.038 ms          
+PageLayout::layoutPage                                      0.035 ms          1                 0.035 ms          
+AbstractNotationPaintView::startHorizontalScrollPosition    0.001 ms          40                0.028 ms          
+SlurSegment::avoidCollisions                                0.002 ms          12                0.024 ms          
+AbstractNotationPaintView::updateLoopMarkers                0.023 ms          1                 0.023 ms          
+NavigationController::unreg                                 0.005 ms          4                 0.022 ms          
+
+
+Other threads. Top 150 by sum time (total count: 9)
+Function                                                    Call time         Call count        Sum time          
+LearnService::th_requestPlaylist                            1436.323 ms       1                 1436.323 ms       
+LearnService::th_requestPlaylist                            1334.984 ms       1                 1334.984 ms       
+LearnService::th_requestPlaylist                            1314.233 ms       1                 1314.233 ms       
+LearnService::th_requestPlaylist                            1247.126 ms       1                 1247.126 ms       
+SynthResolver::resolveSynth                                 28.549 ms         4                 114.197 ms        
+SynthResolver::resolveAvailableResources                    1.320 ms          1                 1.320 ms          
+FxResolver::resolveFxList                                   0.348 ms          3                 1.044 ms          
+LearnService::th_requestPlaylist                            0.000 ms          0                 0.000 ms          
+LearnService::th_requestPlaylist                            0.000 ms          0                 0.000 ms          
+
+
+
+2025-06-03T11:32:56.399 | INFO  | main_thread     | App::run        | activeThreadCount: 2
+2025-06-03T11:32:57.901 | ERROR | main_thread     | WasapiAudioClient::setStateAndNotify | 
+2025-06-03T11:32:57.902 | ERROR | 20840           | WasapiAudioClient::setStateAndNotify | 
+2025-06-03T11:32:57.921 | WARN  | main_thread     | WinMidiInPort::stop | already stoped
+2025-06-03T11:32:58.150 | INFO  | main_thread     | main            | Goodbye!! code: 0

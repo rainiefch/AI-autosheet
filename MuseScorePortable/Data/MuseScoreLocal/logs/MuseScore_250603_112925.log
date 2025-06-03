@@ -1,0 +1,68 @@
+2025-06-03T11:29:25.982 | INFO  | main_thread     | GlobalModule::onPreInit | log path: C:/Users/asus/AppData/Local/MuseScore/MuseScore4/logs/MuseScore_250603_112925.log
+2025-06-03T11:29:25.982 | INFO  | main_thread     | GlobalModule::onPreInit | === Started MuseScore 4.3.1, build number 241490900 ===
+2025-06-03T11:29:26.059 | INFO  | main_thread     | DiagnosticsModule::onInit | success start crash handler
+2025-06-03T11:29:26.261 | ERROR | main_thread     | MuseSamplerLibHandler::MuseSamplerLibHandler | Unable to open MuseSampler library, path: C:/Users/asus/AppData/Local\MuseSampler\lib\MuseSamplerCoreLib.dll
+2025-06-03T11:29:26.262 | ERROR | main_thread     | MuseSamplerResolver::doInit | Incompatible MuseSampler library; ignoring
+2025-06-03T11:29:26.263 | ERROR | main_thread     | MuseSamplerLibHandler::MuseSamplerLibHandler | Unable to open MuseSampler library, path: MuseSamplerCoreLib.dll
+2025-06-03T11:29:26.263 | ERROR | main_thread     | MuseSamplerResolver::doInit | Incompatible MuseSampler library; ignoring
+2025-06-03T11:29:26.657 | INFO  | main_thread     | ConverterController::fileConvert | in: C:/Users/asus/AppData/Local/Temp/music21/tmpv3tcd1h1.musicxml, out: C:/Users/asus/AppData/Local/Temp/music21/tmpv3tcd1h1.png
+2025-06-03T11:29:27.382 | INFO  | main_thread     | Profiler        | 
+
+Main thread. Top 150 by sum time (total count: 46)
+Function                                                    Call time         Call count        Sum time          
+ConverterController::fileConvert                            723.835 ms        1                 723.835 ms        
+ConverterController::convertPageByPage                      606.486 ms        1                 606.486 ms        
+NotationPainting::doPaint                                   543.700 ms        1                 543.700 ms        
+Paint::paintScore                                           543.696 ms        1                 543.696 ms        
+Paint::paintItems                                           543.490 ms        1                 543.490 ms        
+Paint::paintItem                                            6.470 ms          84                543.443 ms        
+SoundFontRepository::loadSoundFonts                         167.851 ms        1                 167.851 ms        
+NotationProject::load                                       114.127 ms        1                 114.127 ms        
+NotationProject::doImport                                   113.596 ms        1                 113.596 ms        
+InstrumentsRepository::load                                 62.559 ms         1                 62.559 ms         
+MasterNotation::setMasterScore                              3.697 ms          1                 3.697 ms          
+MasterNotation::initAfterSettingScore                       3.681 ms          1                 3.681 ms          
+PlaybackModel::load                                         3.606 ms          1                 3.606 ms          
+EngravingProject::doSetupMasterScore                        3.542 ms          1                 3.542 ms          
+Score::update                                               3.482 ms          1                 3.482 ms          
+PlaybackModel::updateEvents                                 3.469 ms          1                 3.469 ms          
+Score::doLayoutRange                                        3.463 ms          1                 3.463 ms          
+ScoreLayout::layoutRange                                    3.440 ms          1                 3.440 ms          
+ScorePageViewLayout::layoutPageView                         3.436 ms          1                 3.436 ms          
+SystemLayout::collectSystem                                 0.817 ms          4                 3.269 ms          
+PageLayout::collectPage                                     3.076 ms          1                 3.076 ms          
+InstrumentsRepository::loadStringTuningsPresets             1.957 ms          1                 1.957 ms          
+MeasureLayout::getNextMeasure                               0.098 ms          11                1.081 ms          
+NotationActionController::init                              0.925 ms          1                 0.925 ms          
+SymNames::loadNameToSymIdHash                               0.811 ms          1                 0.811 ms          
+NotationProject::setupProject                               0.497 ms          1                 0.497 ms          
+ChordLayout::layoutChords1                                  0.011 ms          29                0.314 ms          
+UiConfiguration::readThemes                                 0.143 ms          1                 0.143 ms          
+RegisterAudioPluginsScenario::init                          0.101 ms          1                 0.101 ms          
+KnownAudioPluginsRegister::load                             0.093 ms          1                 0.093 ms          
+MasterNotation::initExcerptNotations                        0.055 ms          1                 0.055 ms          
+MasterNotation::doSetExcerpts                               0.053 ms          1                 0.053 ms          
+MasterNotation::updatePotentialExcerpts                     0.049 ms          1                 0.049 ms          
+UiActionsRegister::updateChecked                            0.005 ms          6                 0.030 ms          
+SystemLayout::layout2                                       0.008 ms          3                 0.025 ms          
+PageLayout::layoutPage                                      0.014 ms          1                 0.014 ms          
+Score::setUpTempoMap                                        0.013 ms          1                 0.013 ms          
+PlaybackController::updateMuteStates                        0.011 ms          1                 0.011 ms          
+EngravingProject::checkCorrupted                            0.009 ms          1                 0.009 ms          
+RepeatList::unwind                                          0.008 ms          1                 0.008 ms          
+InstrumentsRepository::loadMuseInstruments                  0.007 ms          1                 0.007 ms          
+Score::sanityCheckLocal                                     0.006 ms          1                 0.006 ms          
+engraving::markInstrumentsAsPrimary                         0.004 ms          1                 0.004 ms          
+SystemLayout::restoreLayout2                                0.001 ms          3                 0.003 ms          
+SystemLayout::minDistance                                   0.001 ms          4                 0.003 ms          
+NotationPainting::paintPageSheet                            0.000 ms          1                 0.000 ms          
+
+
+Other threads. Top 150 by sum time (total count: 1)
+Function                                                    Call time         Call count        Sum time          
+SynthResolver::resolveAvailableResources                    0.784 ms          1                 0.784 ms          
+
+
+
+2025-06-03T11:29:27.382 | INFO  | main_thread     | App::run        | activeThreadCount: 0
+2025-06-03T11:29:27.393 | INFO  | main_thread     | main            | Goodbye!! code: 0
