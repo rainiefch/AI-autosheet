@@ -146,12 +146,12 @@ Item {
     property bool transparentBorder: false
 
     /*!
-        This property allows the effect output pixels to be cached in order to
+        This property allows the effect output_AUtoSHEET pixels to be cached in order to
         improve the rendering performance.
 
         Every time the source or effect properties are changed, the pixels in
         the cache must be updated. Memory consumption is increased, because an
-        extra buffer of memory is required for storing the effect output.
+        extra buffer of memory is required for storing the effect output_AUtoSHEET.
 
         It is recommended to disable the cache when the source or the effect
         properties are animated.

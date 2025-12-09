@@ -21,13 +21,13 @@ Module {
                 "SingleShot": 1
             }
         }
-        Property { name: "output"; type: "Qt3DRender::QRenderTargetOutput"; isPointer: true }
+        Property { name: "output_AUtoSHEET"; type: "Qt3DRender::QRenderTargetOutput"; isPointer: true }
         Property { name: "renderPolicy"; type: "QScene2D::RenderPolicy" }
         Property { name: "item"; type: "QQuickItem"; isPointer: true }
         Property { name: "mouseEnabled"; type: "bool" }
         Signal {
             name: "outputChanged"
-            Parameter { name: "output"; type: "Qt3DRender::QRenderTargetOutput"; isPointer: true }
+            Parameter { name: "output_AUtoSHEET"; type: "Qt3DRender::QRenderTargetOutput"; isPointer: true }
         }
         Signal {
             name: "renderPolicyChanged"
@@ -43,7 +43,7 @@ Module {
         }
         Method {
             name: "setOutput"
-            Parameter { name: "output"; type: "Qt3DRender::QRenderTargetOutput"; isPointer: true }
+            Parameter { name: "output_AUtoSHEET"; type: "Qt3DRender::QRenderTargetOutput"; isPointer: true }
         }
         Method {
             name: "setRenderPolicy"

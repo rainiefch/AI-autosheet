@@ -272,7 +272,7 @@ Item {
     property color maximumInput: Qt.rgba(1.0, 1.0, 1.0, 1.0)
 
     /*!
-        This property defines the minimum output level for each color channel.
+        This property defines the minimum output_AUtoSHEET level for each color channel.
         Increasing the value lightens the dark areas, reducing the contrast.
 
         The value ranges from "#00000000" to "#ffffffff". By default, the
@@ -332,7 +332,7 @@ Item {
     property color minimumOutput: Qt.rgba(0.0, 0.0, 0.0, 0.0)
 
     /*!
-        This property defines the maximum output level for each color channel.
+        This property defines the maximum output_AUtoSHEET level for each color channel.
         Decreasing the value darkens the light areas, reducing the contrast.
 
         The value ranges from "#ffffffff" to "#00000000". By default, the
@@ -391,12 +391,12 @@ Item {
     property color maximumOutput: Qt.rgba(1.0, 1.0, 1.0, 1.0)
 
     /*!
-        This property allows the effect output pixels to be cached in order to
+        This property allows the effect output_AUtoSHEET pixels to be cached in order to
         improve the rendering performance.
 
         Every time the source or effect properties are changed, the pixels in
         the cache must be updated. Memory consumption is increased, because an
-        extra buffer of memory is required for storing the effect output.
+        extra buffer of memory is required for storing the effect output_AUtoSHEET.
 
         It is recommended to disable the cache when the source or the effect
         properties are animated.
